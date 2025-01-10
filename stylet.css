@@ -1,0 +1,87 @@
+* {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #9543ff;
+}
+
+
+.wrapper {
+    height: 520px;
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.wrapper h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.input-box {
+    width: 90%;
+    height: 40px;
+    padding: 10px 25px 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+}
+
+
+
+
+.btn {
+    padding: 10px 20px;
+    width: 440px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+    
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #b1b1b1;
+    box-shadow: inset rgba(255, 255, 255, .2);
+
+
+}
+
+.input-box::placeholder {
+    color: #fff;
+}
+
+
+.btn-mini {
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
